@@ -1,5 +1,5 @@
 class Lesson < ApplicationRecord
-	belongs_to :courses	
+	belongs_to :course	
   	
 	validates :title, :body, :courses, presence: true
 	

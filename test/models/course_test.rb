@@ -19,7 +19,5 @@ class CourseTest < ActiveSupport::TestCase
     assert_not @course.valid?
   end
 
-
-
 end
 
